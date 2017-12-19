@@ -8,6 +8,9 @@ portuguese - https://github.com/ribafs/auto-crud-pt
 
 and english - https://github.com/ribafs/auto-crud-en
 
+### Support
+Tested in Windows and Linux and it should work in MAC
+
 ### Require:
 - Apache2
 - PHP 5.5.9+
