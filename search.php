@@ -52,8 +52,8 @@ print '<h4>Registro(s) encontrado(s)</h4>';
             <?php
             }
 ?>
-            <td><a href="update.php?id=<?=$row['id']?>"><i class="glyphicon glyphicon-edit" title="Editar"></a></td>
-            <td><a href="delete.php?id=<?=$row['id']?>"><i class="glyphicon glyphicon-remove-circle" title="Excluir"></a></td></tr>
+            <td><a href="update.php?id=<?=$row['id']?>"><i class="glyphicon glyphicon-edit" title="Edit"></a></td>
+            <td><a href="delete.php?id=<?=$row['id']?>"><i class="glyphicon glyphicon-remove-circle" title="Delete"></a></td></tr>
 <?php
         echo "</tr>";
     }
@@ -61,7 +61,7 @@ print '<h4>Registro(s) encontrado(s)</h4>';
     echo "</table>";
 ?>
 
-<input name="enviar" class="btn btn-warning" type="button" onclick="location='index.php?table=<?=$table?>'" value="Voltar">
+<input name="enviar" class="btn btn-warning" type="button" onclick="location='index.php?table=<?=$table?>'" value="Back">
 </div>
 <?php 
 require_once('./header.php');
