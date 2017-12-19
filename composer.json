@@ -1,0 +1,16 @@
+{
+    "name": "ribafs/auto-crud-en",
+    "description": "Automic CRUD Criation",
+    "type": "php-pdo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ola@ribafs.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ribafs/auto-crud-pt": "^1.0"
+    }
+}
