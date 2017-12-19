@@ -2,17 +2,17 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <a href="insert.php" class="btn btn-default">Novo Registro</a>
+            <a href="insert.php" class="btn btn-default">New Register</a>
         </div>
         <div class="col-md-9">
             <form action="search.php" method="get" >
             <div class="pull-right"style="padding-left: 0;"  >
               <span class="pull-right">  
                 <label class="col-lg-12 control-label" for="keyword" style="padding-right: 0;">
-                  <input type="text" value="<?=$_GET["keyword"]?>" placeholder="Nome ou parte" class="form-control" name="keyword">
+                  <input type="text" value="<?=$_GET["keyword"]?>" placeholder="Name" class="form-control" name="keyword">
                 </label>
                 </span>
-              <button class="btn btn-info">busca</button>
+              <button class="btn btn-info">search</button>
             </div>
             </form>
         </div>
