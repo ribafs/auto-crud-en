@@ -1,6 +1,6 @@
 {
     "name": "ribafs/auto-crud-en",
-    "description": "Automic CRUD Criation",
+    "description": "Automatic CRUD Criation",
     "type": "php-pdo",
     "license": "MIT",
     "authors": [
