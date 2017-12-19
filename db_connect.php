@@ -1,17 +1,17 @@
 <?php
 $host = '127.0.0.1';
 /*
-$db   = 'banco';
+$db   = 'register';
 $user = 'postgres';
 $pass = 'postgres';
 $sgbd='pgsql';      // pgsql, mysql
-$table='tabela';
+$table='customers';
 */
-$db   = 'paginacao';
+$db   = 'register';
 $user = 'root';
 $pass = 'mysql';
 $sgbd='mysql';      // pgsql, mysql
-$table='clientes';
+$table='customers';
 
 $opt = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
