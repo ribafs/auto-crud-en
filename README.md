@@ -2,11 +2,11 @@
 
 ### Only create a database and configure on db_connect.php the database and one table and this create your CRUD with PDO, Bootstrap and Pagination.
 
-In two languages: portuguese
-https://github.com/ribafs/auto-crud-pt
+### In two languages: 
 
-and english
-https://github.com/ribafs/auto-crud-en
+portuguese - https://github.com/ribafs/auto-crud-pt
+
+and english - https://github.com/ribafs/auto-crud-en
 
 ### Require:
 - Apache2
