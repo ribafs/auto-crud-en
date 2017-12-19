@@ -9,7 +9,7 @@ $table='customers';
 */
 $db   = 'register';
 $user = 'root';
-$pass = 'mysql';
+$pass = '';
 $sgbd='mysql';      // pgsql, mysql
 $table='customers';
 
