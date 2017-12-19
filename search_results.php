@@ -1,8 +1,25 @@
 <?php require_once('./header.php');?>
-<div class="container" align="center">
-    <a href="insert.php" class="btn btn-default">New Register</a>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <a href="insert.php" class="btn btn-default">Novo Registro</a>
+        </div>
+        <div class="col-md-9">
+            <form action="search.php" method="get" >
+            <div class="pull-right"style="padding-left: 0;"  >
+              <span class="pull-right">  
+                <label class="col-lg-12 control-label" for="keyword" style="padding-right: 0;">
+                  <input type="text" value="<?=$_GET["keyword"]?>" placeholder="Nome ou parte" class="form-control" name="keyword">
+                </label>
+                </span>
+              <button class="btn btn-info">busca</button>
+            </div>
+            </form>
+        </div>
+    </div>
 </div>
 <br>
+
 <?php
 // Connect to database.
 include './db_connect.php';
